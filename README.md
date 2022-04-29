@@ -10,12 +10,12 @@ This repository contains an script to change the default name from the workgroup
 
 ## Install:
 ```powershell
-PowerShell.exe -ExecutionPolicy Bypass -Command .\INSTALL-Workgroup.ps1 -install
+C:\Windows\SysNative\WindowsPowershell\v1.0\PowerShell.exe -ExecutionPolicy Bypass -Command .\INSTALL-Workgroup.ps1 -install
 ```
 
 ## Uninstall:
 ```powershell
-PowerShell.exe -ExecutionPolicy Bypass -Command .\INSTALL-Workgroup.ps1 -uninstall
+C:\Windows\SysNative\WindowsPowershell\v1.0\PowerShell.exe -ExecutionPolicy Bypass -Command .\INSTALL-Workgroup.ps1 -uninstall
 ```
 
 Change this line to update the Workgroup name on any client
