@@ -19,10 +19,10 @@ PowerShell.exe -ExecutionPolicy Bypass -Command .\INSTALL-Workgroup.ps1 -uninsta
 ```
 
 Change this line to update the Workgroup name on any client
-´´´powershell
+```powershell
 #Install Customer Workgroup
 Add-Computer -WorkGroupName "MYWORKGROUPNAME"
-´´´
+```
 
 After this change your client needs to be rebooted, what you can force from Microsoft Endpoint Manager.
 
