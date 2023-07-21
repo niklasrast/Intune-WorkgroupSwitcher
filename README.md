@@ -21,7 +21,7 @@ C:\Windows\SysNative\WindowsPowershell\v1.0\PowerShell.exe -ExecutionPolicy Bypa
 Change this line to update the Workgroup name on any client
 ```powershell
 #Install Customer Workgroup
-Add-Computer -WorkGroupName "MYWORKGROUPNAME"
+Add-Computer -WorkGroupName "COMPANY"
 ```
 
 After this change your client needs to be rebooted, what you can force from Microsoft Endpoint Manager.
